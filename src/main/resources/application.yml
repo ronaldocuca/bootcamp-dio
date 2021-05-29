@@ -5,13 +5,13 @@ server:
 spring:
   datasource:
     driver-class-name: org.postgresql.Driver
-    url: jdbc:postgresql://localhost:5432/bootcamp
-    username: estudos
-    password: 123
+    url: postgres://cywvisthgupnhx:de1cb702045b8f5b5c6a7d7a0cc76f2f4a58febb4bdd00b6084a64db87ac1ffa@ec2-52-0-114-209.compute-1.amazonaws.com:5432/d2nr98a4vna46d
+    username: cywvisthgupnhx
+    password: de1cb702045b8f5b5c6a7d7a0cc76f2f4a58febb4bdd00b6084a64db87ac1ffa
   jpa:
     show-sql: true
     database-platform: org.hibernate.dialect.PostgreSQLDialect
-    generate-ddl: false
+    generate-ddl: true
     hibernate:
       ddl-auto: none
 
